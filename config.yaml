@@ -1,0 +1,11 @@
+list_log_files:
+  /var/log/syslog
+  /var/log/syslog.1
+monitored_log_dirs:
+  /var/log/apt
+search_patterns:
+  '.+kernel.*'
+output_location:
+  outputfile.txt
+time_interval:
+  15
